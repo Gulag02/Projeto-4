@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+#meu_menu{/* abrindo id do menu */
+text-align: right;
+/* padding margem interna */
+padding-right: 60px; 
+/* Colocando borda inferior */
+border-bottom: solid;
+/* Tamanho da fonte menu */
+font-size: 30px;
+font-family: Arial ;
+}/* fechando id do menu */
+/* Chamando a classe mãe */
+#meu_menu a {
+    text-decoration: none;
+    color: navy;
+
+}
+
+/* colocando efeito de sobre no menu */
+
+#meu_menu a:hover{
+    color: rgb(0, 246, 156);
+    background-color: rgba(3, 16, 69, 0.397) ;
+    transition: 0.5s;
+    opacity: 0.7s;
+
+}
+
+.titulo { 
+    text-align: center;
+    background-color: rgb(28, 186, 186);
+    text-decoration: none;
+    color: navy;
+    border-style: double;
+    border-color: darkblue;
+    border-radius: 30px;
+    border-width: 10px;
+}
+
+
+/* trabalhando com div da imagem */
+
+#fundo {
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 35%;
+}
+
+
+/* trabalhando com a div principal */
+
+.master{
+    display: flex;
+}
+
+.col_esquerda{
+    margin-right: 20px;
+    text-align: justify ;
+}
+.col_direita{
+    margin-left: 20px;
+    text-align: justify ;
+    
+}
+
+.titulo_col{
+    background-color: darkblue;
+}
